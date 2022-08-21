@@ -1,12 +1,16 @@
 #include "main.hpp"
 
+#include "GlobalNamespace/GameplayCoreInstaller.hpp"
+
 #include "modloader/shared/modloader.hpp"
 #include "hooks.hpp"
+
+#include "Config.hpp"
 
 #include "custom-types/shared/macros.hpp"
 #include "HMUI/ViewController.hpp"
 
-#include "ViewController.hpp"
+#include "UI/ViewController.hpp"
 
 #include "beatsaber-hook/shared/utils/hooking.hpp"
 #include "beatsaber-hook/shared/utils/logging.hpp"
